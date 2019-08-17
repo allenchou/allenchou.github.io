@@ -1,19 +1,9 @@
-- type: Technical
+- type: Programming Languages
   keywords:
-    - C/C++
-    - JavaScript/Angular/Reactive/Vue
-    - Python/Ruby/PHP
-    - Node.js   
-    - Node.js/ASP.NET
-    - PostgreSQL/MySQL
-    - Object-oriented design
-    - Design and implement database structures
-    - Lead and deliver complex software systems
+    - C/C++ (Proficient)
+    - Java (Competent)
+    - Python (Competent)
 
-- type: Professional
+- type: Technologies
   keywords:
-    - Effective communication
-    - Team player
-    - Strong problem solver
-    - Good time management
-
+    - Hadoop, Spark, MySQL, HBase, OpenCV, OpenGL, Linux, Git, Vim, AWS, GCP, Azure

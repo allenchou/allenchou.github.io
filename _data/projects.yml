@@ -1,23 +1,62 @@
-- title: Project Lorem Ipsum
-  meta: Open Source
+- title: Exploiting Disk-Reliability Heterogeneity in Cluster Storage Systems
+  meta: CMU | Feb 2019 - May 2019
+  advisor_meta: |
+      *Advisors: Prof. Greg Ganger and Prof. Rashmi Vinayak*
   details: |
-      You can use this section for your side projects. You can [provide a
-      project link here](#) as well. Lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus.
+      - Collaborated with a team of 6 to implement the disk group concept on the
+        top of HDFS, which extended the storage heterogeneity functionality of
+        native HDFS
+      - Integrated Ganglia system to monitor the cluster under different disk IO
+        metrics
+      - Benchmarked the performance using DFS-Perf framework to demonstrate the
+        stability of our design
+      - Improved the flexibility and storage-efficiency of HDFS in the
+        heterogeneous storage cluster
 
-- title: Project Sed Fringilla
-  meta: Open Source
+- title: Human Motion Video Enhancement with Visual Effects
+  meta: HKUST | Jun 2017 - Jun 2018
+  advisor_meta: |
+      *Advisors: Prof. Chiew-Lan Tai and Prof. Hongbo Fu*
   details: |
-      You can use this section for your side projects. Cras dapibus. Vivamus
-      elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo
-      ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+      - Built an automatic system to superimpose visual effects into videos by
+        template-matching approach, which reduced the editing workload of users
+      - Implemented STIP detector and HOG3D descriptor using C++ and OpenCV for
+        feature extraction
+      - Developed dynamic time warping algorithm to match two sequences of
+        video motion features
 
-- title: Project Praesent
-  meta: Open Source
+- title: Video-Driven Facial Expression Animation
+  meta: HKUST | Apr 2016 - Jun 2017
+  advisor_meta: |
+      *Advisors: Prof. Chiew-Lan Tai and Prof. Hongbo Fu*
   details: |
-      You can use this section for your side projects. Cras dapibus. Vivamus
-      elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo
-      ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+      - Reconstructed a 3D facial expression model from multi-view marked facial
+        images by BFGS optimization
+      - Extracted the blendshape weights from the 2D facial video by cascaded
+        regression method
+      - Built a 3D facial expression animation system by data-driven approach
+      - Improved the 3D facial expression animation system into real-time by
+        OpenMP parallelization
+
+- title: Quantum Information from Two n-Dimensional Pure Quantum States
+  meta: Tsinghua | Oct 2014 - Jun 2015
+  advisor_meta: |
+      *Advisor: Prof. Giulio Chiribella*
+  details: |
+      Proposed two definitions of anti-parallel spins in *n*-dimensional Quantum
+      Space and explored the optimal fidelities of *n*-dimension parallel and
+      anti-parallel spins
+
+- title: Robust Influence Maximization
+  meta: MSRA | Jul 2014 - Jun 2015
+  advisor_meta: |
+      *Advisor: Prof. Wei Chen*
+  details: |
+      - Explored the impact of the parameter estimation uncertainty during the influence
+        propagation task
+      - Designed a greedy algorithm to find an approximate optimal solution with
+        a guaranteed bound
+      - Conducted two numerical experiments on Flixster and NetHEPT datasets to evaluate our
+        methods
+
 

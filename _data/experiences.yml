@@ -1,61 +1,15 @@
-- role: Senior Software Engineer
-  company: Google
-  time: 2019 - Present
+- role: Motion Planning Engineer Intern
+  company: TuSimple
+  time: May 2019 - Aug 2019
   details: |
-    Role description goes here ipsum dolor sit amet, consectetuer adipiscing
-    elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
-    quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede
-    justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing
-    elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
-    quam felis.
-
-      - Lorem ipsum dolor sit amet, consectetuer.
-      - Aenean commodo ligula eget dolor.
-      - Etiam ultricies nisi vel augue.
-
-- role: Lead Software Developer
-  company: Apple
-  time: 2016 - 2019
-  details: |    
-    Role description goes here ipsum dolor sit amet, consectetuer adipiscing
-    elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
-    quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede
-    justo, fringilla vel.
-
-      - Lorem ipsum dolor sit amet, consectetuer.
-      - Aenean commodo ligula eget dolor.
-
-- role: Senior Software Developer
-  company: Dropbox
-  time: 2014 - 2016
-  details: | 
-    Role description goes here ipsum dolor sit amet, consectetuer adipiscing
-    elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-- role: Senior Developer
-  company: Uber
-  time: 2013 - 2014
-  details: |
-    Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit.
-    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.
-
-- role: Backend Developer
-  company: Amazon
-  time: 2014 - 2016
-  details: |
-    Role description goes here ipsum dolor sit amet, consectetuer adipiscing
-    elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-- role: Frontend Developer
-  company: Startup
-  time: 2013 - 2014
-  details: |
-    Role description goes here ipsum dolor sit amet, consectetuer adipiscing
-    elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-    penatibus. 
+      - Implemented the local planning functionality with traffic rules module
+        design, which improved the maintainability and extensibility of the new
+        planning layer compared to the previous version
+      - Developed a navigation module with Dijkstra’s algorithm to support
+        planning decision making, which reduced solution space and the
+        lane-change cost of the final decision
+      - Reconstructed planning map update mechanism with a traversal method to
+        reduce the code complexity
+      - Refined map assumption library to relieve compatibility issue between
+        map and planning layers
 

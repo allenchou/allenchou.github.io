@@ -8,13 +8,11 @@
     </div><!--//resume-title-->
     <div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
       <ul class="list-unstyled mb-0">
-        <li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg mr-2 "></i><a
-                            class="resume-link" href="tel:#">{{ person.phone }}</a></li>
         <li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg
             mr-2"></i><a class="resume-link"
-                         href="mailto:#">{{ person.email }}</a></li>
+                         href="mailto: {{ person.email }}">{{ person.email }}</a></li>
         <li class="mb-2"><i class="fas fa-globe fa-fw fa-lg mr-2"></i><a
-                            class="resume-link" href="#">{{ person.website }}</a></li>
+                            class="resume-link" href="https://{{ person.website }}">{{ person.website }}</a></li>
         <li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg
         mr-2"></i>{{ person.location }}</li>
       </ul>
