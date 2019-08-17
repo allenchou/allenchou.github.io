@@ -1,0 +1,28 @@
+name: Simon Doe
+tagline: Senior Software Engineer
+phone: 0123 4567 890
+email: simon.doe@yourwebsite.com
+website: www.yourwebsite.com
+blog: www.yourblog.com
+location: New York
+photo: assets/images/resume-profile.png
+github:
+  username: github-username
+  url: github.com/username
+linkedin: 
+  username: linkedin-username
+  url: linkedin.com/in/username
+twitter: 
+  username: twittername
+  url: twitter.com/username
+summary: |
+  Summarise your career here. [You can make a PDF version of your resume using
+  our free Sketch template
+  here](https://themes.3rdwavemedia.com/resources/sketch-template/resume-sketch-sketch-resume-template-for-software-developers/).
+  Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet,
+  consectetuer adipiscing elit. Aenean commodo ligula eget dolor.  Aenean massa.
+  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+  ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+  sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero
+  venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus
+  tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. 

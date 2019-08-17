@@ -1,0 +1,12 @@
+{% assign languages = site.data.languages %}
+{% if languages %}
+<section class="skills-section py-3">
+  <h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
+  <ul class="list-unstyled resume-lang-list">
+    {% for item in languages %}
+    <li class="mb-2">{{ item.language }} <span class="text-muted">({{ item.proficient }})</span></li>
+    {% endfor %}
+  </ul>
+</section><!--//certificates-section-->
+{% endif %}
+

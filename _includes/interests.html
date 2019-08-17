@@ -1,10 +1,11 @@
+{% assign interests = site.data.interests %}
+{% if interests %}
 <section class="skills-section py-3">
   <h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
   <ul class="list-unstyled resume-interests-list mb-0">
-    <li class="mb-2">Climbing</li>
-    <li class="mb-2">Snowboarding</li>
-    <li class="mb-2">Photography</li>
-    <li>Travelling</li>
+    {% for item in interests %}
+    <li class="mb-2">{{ item }}</li>
+    {% endfor %}
   </ul>
 </section><!--//certificates-section-->
-
+{% endif %}

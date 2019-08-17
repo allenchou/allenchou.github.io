@@ -1,0 +1,16 @@
+{% assign skills = site.data.skills %}
+{% if skills %}
+<section class="skills-section py-3">
+  <h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
+  {% for item in skills %}
+  <div class="item">
+    <h4 class="item-title">{{ item.type }}</h4>
+    <ul class="list-unstyled resume-skills-list">
+      {% for keyword in item.keywords %}
+      <li class="mb-2">{{ keyword }}</li>
+      {% endfor %}
+    </ul>
+  </div><!--//item-->
+  {% endfor %}
+</section><!--//skills-section-->
+{% endif %}
